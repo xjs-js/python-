@@ -45,7 +45,7 @@ class Movie(object):
             os.mkdir(path)
         self.path = path.decode('utf-8')
 
-    # get information on no page_index page
+    # get information on one page_index page
     def get_page(self, page_index):
         self.info = []
         self.links = []
